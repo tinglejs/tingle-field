@@ -1,0 +1,28 @@
+/**
+ * Field Component Style for tingle
+ * @auther gnosaij
+ *
+ * Copyright 2014-2015, Tingle Team, Alinw.
+ * All rights reserved.
+ */
+.tField {
+  padding: 0 0.533333333333333rem;
+  min-height: 1.173333333333333rem;
+  font-size: 0.373333333333333rem;
+}
+.tFieldLabel {
+  margin-right: 0.4rem;
+  padding: 0.4rem 0;
+  width: 1.6rem;
+  color: #424242;
+}
+.tField.loose .tFieldLabel {
+  width: auto;
+  max-width: 50%;
+}
+.tField.vertical .tFieldLabel {
+  width: auto;
+  padding: 0.106666666666667rem 0;
+}
+
+/*# sourceMappingURL=Field.css.map */
