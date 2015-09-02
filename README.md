@@ -1,16 +1,3 @@
-# Field
-
-- name: tingle-field
-- category: tingle
-- tags: tingle,field
-- description: 表单域
-- maintainers: 拂山(74803)
-- version: 0.0.1
-- lastupdate: 2015-09-01
-- screenshots: 
-
----
-
 基础表单域
 
 ## Simple Usage
@@ -49,5 +36,4 @@ class Demo extends React.Component {
 
 ## Links 相关链接 
 
-- [Fire a bug/Issues 提Bug](http://gitlab.alibaba-inc.com/alinwmobile/tingle-field/issues)
-- [Tingle项目](http://gitlab.alibaba-inc.com/alinwmobile/tingle/tree/master)
+- [Fire a bug/Issues 提Bug](http://github.com/tinglejs/tingle-field/issues)
