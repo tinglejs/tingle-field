@@ -5,21 +5,22 @@
  * Copyright 2014-2015, Tingle Team, Alinw.
  * All rights reserved.
  */
-var classnames = require('classnames');
+let classnames = require('classnames');
 
 class Field extends React.Component {
     constructor(props) {
         super(props);
     }
     render() {
-        var t = this;
+        let t = this;
 
         return (
-            <div className={classnames('tField tFBH tFBAC', {
-                [t.props.className]: !!t.props.className
+            <div className={classnames('tField tFBH', {
+                [t.props.className]: !!t.props.className,
+                'tFBAC': !t.props.multiLine
             })}>
-                {t.props.label && <div className="tFieldLabel tLH1_3">{t.props.label}</div>}
-                <div className="tFB1 tPR">
+                {t.props.label && <div className="tFieldLabel">{t.props.label}</div>}
+                <div className="tFB1 tPR tFieldBox">
                     {t.props.children}
                 </div>
             </div>
@@ -35,5 +36,7 @@ Field.defaultProps = {
 Field.propTypes = {
     label: React.PropTypes.string,
 }
+
+Field.displayName = 'Field';
 
 module.exports = Field;
