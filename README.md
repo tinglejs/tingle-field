@@ -54,7 +54,7 @@ class Demo extends React.Component {
 
 > 通常会配合GroupList一起使用。
 
-## Links 相关链接
+## Links 相关链接 
 
 - [Fire a bug/Issues 提Bug](http://gitlab.alibaba-inc.com/alinwmobile/tingle-field/issues)
 - [Tingle项目](http://gitlab.alibaba-inc.com/alinwmobile/tingle/tree/master)
