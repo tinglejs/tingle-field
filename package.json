@@ -21,6 +21,7 @@
     "fastclick": "^1.0.6",
     "react": "^0.13.3",
     "tingle-context": "~0.0.3",
+    "tingle-group-list": "0.0.1",
     "tingle-style": "~0.0.1",
     "zepto": "0.0.4"
   },

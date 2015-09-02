@@ -5,10 +5,10 @@
  * Copyright 2014-2015, Tingle Team, Alinw.
  * All rights reserved.
  */
-var GroupList = require('tingle-group-list');
-var classnames = require('classnames');
+let GroupList = require('tingle-group-list');
+let classnames = require('classnames');
 
-var Field = require('../src');
+let Field = require('../src');
 
 class Demo extends React.Component {
 
