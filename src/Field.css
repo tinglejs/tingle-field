@@ -1,12 +1,11 @@
 /**
  * Field Component Style for tingle
- * @auther gnosaij
+ * @author gnosaij
  *
  * Copyright 2014-2015, Tingle Team, Alinw.
  * All rights reserved.
  */
 .tField {
-  padding-right: 0 0.533333333333333rem;
   min-height: 1.173333333333333rem;
   font-size: 0.373333333333333rem;
 }
@@ -22,9 +21,6 @@
 .tField.vertical .tFieldLabel {
   width: auto;
   padding: 0.106666666666667rem 0;
-}
-.tFieldBox {
-  padding-right: 0.533333333333333rem;
 }
 
 /*# sourceMappingURL=Field.css.map */

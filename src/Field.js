@@ -1,6 +1,6 @@
 /**
  * Field Component for tingle
- * @auther gnosaij
+ * @author gnosaij
  *
  * Copyright 2014-2015, Tingle Team, Alinw.
  * All rights reserved.
@@ -29,13 +29,13 @@ class Field extends React.Component {
 }
 
 Field.defaultProps = {
-    label: '',
-}
+    label: ''
+};
 
 // http://facebook.github.io/react/docs/reusable-components.html
 Field.propTypes = {
-    label: React.PropTypes.string,
-}
+    label: React.PropTypes.string
+};
 
 Field.displayName = 'Field';
 
