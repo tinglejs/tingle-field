@@ -1,8 +1,10 @@
+# Field
+
 基础表单域
 
 ## Simple Usage
 
-```
+```javascript
 class Demo extends React.Component {
 
     constructor(props) {
@@ -34,6 +36,6 @@ class Demo extends React.Component {
 
 > 通常会配合GroupList一起使用。
 
-## Links 相关链接 
+## Links 相关链接
 
-- [Fire a bug/Issues 提Bug](http://github.com/tinglejs/tingle-field/issues)
+- [Fire a bug/Issues 提Bug](https://github.com/tinglejs/tingle-field/issues)
