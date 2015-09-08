@@ -1,4 +1,10 @@
 
+0.0.3 / 2015-09-07
+==================
+
+ * mv unnecessary dependencies
+ * change label color to #757575
+
 0.0.2 / 2015-09-06
 ==================
 

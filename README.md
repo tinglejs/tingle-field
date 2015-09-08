@@ -1,4 +1,4 @@
-# Field
+# Field [![npm version](https://badge.fury.io/js/tingle-field.svg)](http://badge.fury.io/js/tingle-field)
 
 基础表单域
 
