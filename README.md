@@ -2,6 +2,8 @@
 
 基础表单域
 
+<img src="https://img.alicdn.com/tps/TB1ZMPVJpXXXXXaXFXXXXXXXXXX-750-1254.png" width="375"/>
+
 ## Simple Usage
 
 ```javascript
@@ -31,6 +33,8 @@ class Demo extends React.Component {
 |---|----|---|----|
 |className|optional|-|自定义的扩展样式名称|
 |label|optional|-|表单域label文字标签|
+|tappable|optional|false|是否有 tap 效果|
+|multiLine|optional|false|是否多行显示模式|
 
 > 所有props都是可选的。
 

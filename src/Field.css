@@ -6,12 +6,15 @@
  * All rights reserved.
  */
 .tField {
-  min-height: 1.173333333333333rem;
-  font-size: 0.373333333333333rem;
+  min-height: 44px;
+  font-size: 14px;
+}
+.tFieldBox {
+  padding-right: 15px;
 }
 .tFieldLabel {
-  padding: 0.4rem 0;
-  width: 2.666666666666667rem;
+  padding: 15px 0;
+  width: 100px;
   color: #757575;
 }
 .tField.loose .tFieldLabel {
@@ -20,7 +23,7 @@
 }
 .tField.vertical .tFieldLabel {
   width: auto;
-  padding: 0.106666666666667rem 0;
+  padding: 4px 0;
 }
 
 /*# sourceMappingURL=Field.css.map */
